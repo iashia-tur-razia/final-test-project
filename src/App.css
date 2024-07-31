@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://i.pinimg.com/originals/0a/19/b4/0a19b4bd3fec67bab4e52af327c6f039.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app {
+  align-items: center;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #6e1859;
+  font-size: 2em;
+}

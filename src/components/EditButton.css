@@ -1,0 +1,39 @@
+.edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ff006a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #b30074;
+    border: none;
+    color: white;
+  }
+  
+  .edit-button svg {
+    margin-right: 5px;
+  }
+  
+/* Tablet view */
+@media (max-width: 768px) {
+  .edit-button {
+      padding: 8px;
+      margin: 8px;
+      font-size: 14px; /* Adjust font size for tablets */
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .edit-button {
+      padding: 6px;
+      margin: 6px;
+      font-size: 12px; /* Adjust font size for mobile */
+  }
+}

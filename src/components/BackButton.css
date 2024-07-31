@@ -1,0 +1,36 @@
+.back-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#a72887;
+    border: 2px solid #a72887 ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .back-button svg {
+    margin-right: 5px;
+  }
+  .back-button:hover {
+    background-color:  #d8a5cb;
+    border: none;
+    color: white;
+  }
+  /* Tablet view */
+@media (max-width: 768px) {
+  .back-button {
+      padding: 8px;
+      margin: 8px;
+      font-size: 14px; /* Adjust font size for tablets */
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .back-button {
+      padding: 6px;
+      margin: 6px;
+      font-size: 12px; /* Adjust font size for mobile */
+  }
+}
